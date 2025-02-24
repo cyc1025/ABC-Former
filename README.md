@@ -22,6 +22,9 @@ The primary goal of white balance (WB) for sRGB images is to correct inaccurate 
 ![ABC-Former_arch](Fig/ABC-Former_arch.png)
 
 ### Training
+- The training fold is set up following the methodology outlined in [Deep White-Balance Editing (CVPR 2020)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Afifi_Deep_White-Balance_Editing_CVPR_2020_paper.pdf).
+- Training data is available from the [Rendered WB dataset - Set1](https://yorkucvil.github.io/projects/public_html/sRGB_WB_correction/dataset.html).
+
 
 
 ### Testing
