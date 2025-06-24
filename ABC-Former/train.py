@@ -56,7 +56,7 @@ def main(opt):
     criterionL1 = nn.L1Loss().cuda()
 
     import sys
-    for e in range(350, opt.epochs):
+    for e in range(0, opt.epochs):
         torch.cuda.empty_cache()
         hist_net.train()
         lab_net.train()
